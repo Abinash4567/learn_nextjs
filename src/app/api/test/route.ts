@@ -1,4 +1,4 @@
-export default function GET(request: Request){
+export function GET(request: Request){
     return new Response(JSON.stringify({data: "Abinash", message: "Requested"}), {
         status: 200,
         headers: {
